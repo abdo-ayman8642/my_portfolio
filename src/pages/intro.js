@@ -1,10 +1,4 @@
-import {
-  FaLinkedinIn,
-  FaGithub,
-  FaFacebookF,
-  FaAngleDown,
-  FaPhone,
-} from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaFacebookF, FaPhone } from "react-icons/fa";
 export const INTRO = () => {
   return (
     <section id="intro">
@@ -57,9 +51,7 @@ export const INTRO = () => {
 
             <a class="button stroke smoothscroll" href="#about" title="">
               More About Me
-              <div>
-                <FaAngleDown />
-              </div>
+              <div></div>
             </a>
           </div>
         </div>
