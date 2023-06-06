@@ -1,0 +1,44 @@
+img {
+  margin: 0 auto;
+}
+.image-container {
+  position: relative;
+  width: 1280px;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Change the background color to suit your needs */
+  color: #fff; /* Change the text color to suit your needs */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container:hover .image-overlay {
+  opacity: 1;
+}
+.carousel-control-prev-icon {
+  background-image: url(https://icons8.com/icon/39789/chevron-left);
+}
+.carousel-item img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 50% !important;
+}
+.carousel-item {
+  height: 700px;
+}
