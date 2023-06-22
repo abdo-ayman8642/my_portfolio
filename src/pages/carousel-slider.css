@@ -1,44 +1,38 @@
-img {
-  margin: 0 auto;
-}
-.image-container {
-  position: relative;
-  width: 1280px;
-}
-
-.image-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
-  background-color: rgba(
-    0,
-    0,
-    0,
-    0.5
-  ); /* Change the background color to suit your needs */
-  color: #fff; /* Change the text color to suit your needs */
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.image-container:hover .image-overlay {
-  opacity: 1;
-}
-.carousel-control-prev-icon {
-  background-image: url(https://icons8.com/icon/39789/chevron-left);
-}
-.carousel-item img {
+/* .carousel-item img {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   max-width: 50% !important;
+} */
+
+.carousel-indicators [data-coreui-target] {
+  background-color: #000 !important;
+  opacity: 0.3;
 }
-.carousel-item {
-  height: 70rem;
+.carousel-indicators .active {
+  opacity: 1;
+}
+.carousel-indicators {
+  bottom: -5rem;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  height: auto;
+  width: 7%;
+}
+.carousel-control-next:focus,
+.carousel-control-prev:focus {
+  display: none;
+}
+.icon:not(.icon-c-s):not(.icon-custom-size) {
+  width: inherit;
+  height: inherit;
+  font-size: inherit;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #bebebe;
+  border-radius: 50%;
+  padding: 1.4rem;
 }

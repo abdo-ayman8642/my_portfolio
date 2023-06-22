@@ -1,4 +1,5 @@
 import CarouselSlider from "./carousel-slider";
+
 import omnifood from "../images/omnifood.jpg";
 import bankist from "../images/bankist.png";
 import nexter from "../images/nexter.png";
@@ -52,7 +53,6 @@ export const PORTFOLIO = () => {
           <h1>Check Out Some of My Works.</h1>
         </div>
       </div>
-
       <CarouselSlider projects={projects} />
     </section>
   );
