@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/my_portfolio/static/css/main.b02dd4cd.css",
-    "main.js": "/my_portfolio/static/js/main.98c23924.js",
+    "main.css": "/my_portfolio/static/css/main.04570444.css",
+    "main.js": "/my_portfolio/static/js/main.a3220bc1.js",
     "static/media/nathan-anderson-L-7cP4p5hik-unsplash.jpg": "/my_portfolio/static/media/nathan-anderson-L-7cP4p5hik-unsplash.deec525f5ae7a4135c1f.jpg",
     "static/media/bankist.png": "/my_portfolio/static/media/bankist.6ddee0f43dcab8314827.png",
     "static/media/forkify.png": "/my_portfolio/static/media/forkify.2689a9bd106329c2af31.png",
     "static/media/screenshot_of_website.png": "/my_portfolio/static/media/screenshot_of_website.aae0fdb14d1c95ed8410.png",
     "static/media/Abdelrahman Ayman latest.pdf": "/my_portfolio/static/media/Abdelrahman Ayman latest.a5223e838c412c5ce901.pdf",
     "static/media/nexter.png": "/my_portfolio/static/media/nexter.4b21f264f84b16c9c273.png",
-    "static/media/omnifood.jpg": "/my_portfolio/static/media/omnifood.2b4b0ea2c9efc31ef3d5.jpg",
     "static/media/natours.jpg": "/my_portfolio/static/media/natours.581c965907b5d31a9a05.jpg",
+    "static/media/omnifood.jpg": "/my_portfolio/static/media/omnifood.31fb63387790efe426b6.jpg",
     "index.html": "/my_portfolio/index.html",
-    "main.b02dd4cd.css.map": "/my_portfolio/static/css/main.b02dd4cd.css.map",
-    "main.98c23924.js.map": "/my_portfolio/static/js/main.98c23924.js.map"
+    "main.04570444.css.map": "/my_portfolio/static/css/main.04570444.css.map",
+    "main.a3220bc1.js.map": "/my_portfolio/static/js/main.a3220bc1.js.map"
   },
   "entrypoints": [
-    "static/css/main.b02dd4cd.css",
-    "static/js/main.98c23924.js"
+    "static/css/main.04570444.css",
+    "static/js/main.a3220bc1.js"
   ]
 }
