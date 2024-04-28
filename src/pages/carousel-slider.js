@@ -6,13 +6,18 @@ const CarouselSlider = (props) => {
     <CCarousel controls indicators>
       {props.projects.map(function (item, index) {
         return (
+          
           <CCarouselItem style={{ height: "50rem" }}>
-            <CImage
-              className="d-block w-50 "
-              style={{ margin: "0 auto" }}
+          <a href={item.href} target="_blank" className="d-block w-50 " style={{ margin: "0 auto" }}>
+            
+          <CImage
+              className="d-block "
+              
               src={item.image}
               alt={`slide ${index}`}
             />
+            </a>  
+            
           </CCarouselItem>
         );
       })}
